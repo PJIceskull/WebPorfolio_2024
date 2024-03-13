@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #1c2321;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: FuturaCondensedLight;
+  src: url(fonts/Futura-CondensedLight.ttf);
+}
+@font-face {
+  font-family: FuturaLight;
+  src: url(fonts/Futura_Light_font.ttf);
+}
+@font-face {
+  font-family: FuturaBook;
+  src: url(fonts/Futura_Book_font.ttf);
+}
+@font-face {
+  font-family: FuturaMedium;
+  src: url(fonts/futura_medium_bt.ttf);
+}
+@font-face {
+  font-family: FuturaHeavy;
+  src: url(fonts/Futura_Heavy_font.ttf);
+}
+@font-face {
+  font-family: FuturaExtraBlack;
+  src: url(fonts/Futura_Extra_Black_font.ttf);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: FuturaBook;
+}
+
+.wrapper {
+  max-width: 1280vw;
+  min-height: 800px;
+  margin: 0 auto;
+}
+
+nav {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  min-height: 63px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  background-color: #1c2321;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  font-size: 18px;
+  color: #a9b4c2;
+  z-index: 5;
+}
+nav a {
+  color: #a9b4c2;
+  text-decoration: none;
+  font-weight: 520;
+  margin-right: 52px;
+  transition-duration: 0.3s;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: #eef1ef;
+}
+nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav p {
+  margin: 0;
+}
+nav i {
+  font-size: 26px;
+}
+nav i:hover {
+  color: #eef1ef;
+}
+nav i:active {
+  color: #1c2321;
+  background-color: #eef1ef;
+}
+
+@media screen and (min-width: 1280px) {
+  nav {
+    max-width: 1280vw;
+  }
+}
+@media screen and (max-width: 575px) {
+  nav .links {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  nav .links a {
+    margin-top: 15px;
+  }
+}
+button {
+  text-transform: uppercase;
+  color: #eef1ef;
+  border: 5px solid #eef1ef;
+  transition-duration: 0.6s;
+}
+button a {
+  color: #eef1ef;
+  text-decoration: none;
+  font-family: FuturaHeavy;
+}
+
+.contactDark {
+  background-color: #1c2321;
+  width: 230px;
+  height: 68px;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.contactDark:hover {
+  background-color: #eef1ef;
+  color: #1c2321;
+}
+.contactDark:hover a {
+  color: #1c2321;
+}
+
+.messageButton {
+  background-color: #5e6572;
+  font-family: FuturaHeavy;
+  font-size: clamp(1.5rem, 1.75vw, 2rem);
+  padding: 20px 28px;
+}
+.messageButton:hover {
+  background-color: #eef1ef;
+  color: #5e6572;
+}
+.messageButton:hover a {
+  color: #5e6572;
+}
+
+.viewSite {
+  color: #7d98a1;
+  border: 3px solid #7d98a1;
+  height: 68px;
+  font-size: 25px;
+  font-family: FuturaBook;
+  margin-bottom: 80px;
+}
+.viewSite a {
+  color: #7d98a1;
+  font-size: 25px;
+  font-family: FuturaMedium;
+  margin: 17px 30px;
+}
+.viewSite:hover {
+  color: #eef1ef;
+  background-color: #7d98a1;
+}
+.viewSite:hover a {
+  color: #eef1ef;
+}
+
+@media screen and (max-width: 800px) {
+  .contactDark {
+    margin-bottom: 15px;
+  }
+}
+#Home-Section {
+  max-width: 1280vw;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Home-Section .homeText {
+  width: 50%;
+  min-height: 800px;
+  background-color: #1c2321;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+}
+#Home-Section .homeText h1,
+#Home-Section .homeText h3 {
+  color: #7d98a1;
+}
+#Home-Section .homeText h2,
+#Home-Section .homeText p {
+  color: #a9b4c2;
+}
+#Home-Section .homeText h1 {
+  font-size: clamp(2.75rem, 3.5vw, 4rem);
+  font-family: FuturaExtraBlack;
+  margin: 10px 65px 30px 85px;
+}
+#Home-Section .homeText h2 {
+  font-size: clamp(1.3125rem, 1.875vw, 2rem);
+  font-family: FuturaMedium;
+  margin: 83px 70px 0 85px;
+}
+#Home-Section .homeText h3 {
+  font-size: clamp(1.3125rem, 1.875vw, 1.875rem);
+  font-family: FuturaBook;
+  margin-left: 89px;
+  margin-right: 99px;
+}
+#Home-Section .homeText p {
+  font-size: clamp(1.25rem, 1.6875vw, 1.7em);
+  margin: 20px 92px 40px;
+}
+
+.homeImg {
+  min-height: 800px;
+  width: 50%;
+}
+
+.profilePic {
+  height: 800px;
+  background-image: url(../img/profile_pic.JPEG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #a9b4c2;
+  background-blend-mode: luminosity;
+}
+
+@media screen and (max-width: 1280px) and (max-width: 800px) {
+  #Home-Section {
+    flex-direction: column-reverse;
+    height: 50%;
+  }
+  #Home-Section .homeText {
+    width: 100%;
+    min-height: 500px;
+  }
+  #Home-Section .homeText h1 {
+    margin: 20px 45px 0;
+    text-align: center;
+  }
+  #Home-Section .homeText h2 {
+    margin: 0 45px;
+  }
+  #Home-Section .homeText h3 {
+    margin: 20px 45px 0;
+  }
+  #Home-Section .homeText p {
+    margin: 20px 45px 30px;
+  }
+  .homeImg {
+    min-height: 615.3846153846px;
+    width: 100%;
+  }
+  .homeImg .profilePic {
+    max-height: 615.3846153846px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1280px) and (max-width: 800px) and (max-width: 500px) {
+  .homeText {
+    justify-content: space-evenly;
+    padding: 60px 0;
+  }
+}
+#About-Section {
+  min-height: 800px;
+  max-width: 1280vw;
+  background-image: linear-gradient(0deg, #1c2321 25%, #7d98a1 25%, #7d98a1 50%, #1c2321 50%, #1c2321 75%, #7d98a1 75%, #7d98a1 100%);
+  background-size: 80px 80px;
+  color: #eef1ef;
+  padding-top: 200px;
+}
+
+.aboutText {
+  background-color: #7d98a1;
+  width: 100%;
+  padding: 50px;
+}
+.aboutText h1 {
+  font-size: clamp(3.125rem, 6vw, 6.25rem);
+  font-family: FuturaBook;
+  margin-bottom: 10px;
+}
+.aboutText hr {
+  max-width: 540px;
+  height: 10px;
+  background-color: #eef1ef;
+  border-style: none;
+  margin-bottom: 50px;
+}
+
+.aboutText-Body {
+  max-width: 1180vw;
+}
+.aboutText-Body p {
+  font-size: clamp(0.75rem, 2vw, 1.5rem);
+}
+
+.AboutGradient {
+  width: 100%;
+  height: 162px;
+  background-image: linear-gradient(#7d98a1, #1c2321);
+}
+
+#Work-Section {
+  background-color: #1c2321;
+  min-height: 800px;
+  max-width: 1280vw;
+}
+
+.WorkTitle h1 {
+  padding-top: 30px;
+  font-family: FuturaBook;
+  font-size: 110px;
+  text-transform: uppercase;
+  color: #eef1ef;
+  text-align: center;
+}
+.WorkTitle hr {
+  border-style: none;
+  height: 11px;
+  background-color: #7d98a1;
+}
+
+.websiteSection {
+  max-width: 100%;
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 63.5px;
+}
+
+.websitePrevBox {
+  height: 400px;
+  position: relative;
+}
+
+.aboutSite-Text {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(238, 241, 239, 0.85);
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.aboutSite-Text:hover {
+  opacity: 1;
+}
+.aboutSite-Text h2 {
+  color: #5e6572;
+  font-size: 45px;
+  margin-top: 80px;
+}
+.aboutSite-Text p {
+  font-size: 25px;
+  color: #7d98a1;
+  font-family: FuturaBook;
+}
+
+@media screen and (max-width: 1280px) {
+  .WorkTitle h1 {
+    font-size: 6.875vw;
+  }
+}
+@media screen and (max-width: 1280px) and (max-width: 800px) {
+  .WorkTitle h1 {
+    font-size: 3.125rem;
+  }
+}
+@media screen and (max-width: 1280px) and (max-width: 540px) {
+  .websiteSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+    margin-top: 40px;
+  }
+  .websiteSection .websitePrevBox {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .aboutSite-Text h2 {
+    font-size: 32px;
+  }
+}
+.websitePrevPic {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 0.5s;
+}
+
+.oldPortfolioPic {
+  background-image: url(../img/websitePics/porfolio_preview.png);
+}
+
+.eventsyPic {
+  background-image: url(../img/websitePics/Eventsy_Preview.png);
+}
+
+.dancepunkPic {
+  background-image: url(../img/websitePics/Ecommerce_Preview.png);
+  background-position: top;
+}
+
+.qrCardPic {
+  background-image: url(../img/websitePics/QR_Card_Preview.png);
+}
+
+.blogPic {
+  background-image: url(../img/websitePics/Blog_Preview.png);
+}
+
+.booknookPic {
+  background-image: url(../img/websitePics/Booknook_Preview.png);
+}
+
+.jungleCookPic {
+  background-image: url(../img/websitePics/Jungle_Cook_Preview.png);
+}
+
+.webDevConPic {
+  background-image: url(../img/websitePics/WebDev_Conference_Preview.png);
+  background-position: left;
+}
+
+.coffeePic {
+  background-image: url(../img/websitePics/Coffee_Maker_Preview.png);
+}
+
+#Contact-Section {
+  background-color: #5e6572;
+  min-height: 725px;
+  max-width: 1280vw;
+  color: #eef1ef;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.contactText {
+  margin: 55px 76px 25px;
+}
+.contactText h1 {
+  font-size: 110px;
+  font-size: clamp(3.125rem, 6vw, 6.25rem);
+  font-family: FuturaBook;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+.contactText hr {
+  height: 7px;
+  background-color: #eef1ef;
+  border-style: none;
+}
+.contactText p {
+  font-size: clamp(1.25rem, 2vw, 2rem);
+  font-family: FuturaBook;
+  margin-top: 34.5px;
+}
+
+.messageTitle {
+  font-family: FuturaHeavy;
+  font-size: 45px;
+  font-size: clamp(1.4rem, 2.8125vw, 2.8125rem);
+}
+
+.socialIcons {
+  width: 315.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 60px;
+  margin-top: 24px;
+}
+.socialIcons a {
+  text-decoration: none;
+}
+.socialIcons i {
+  color: #eef1ef;
+  transition-duration: 0.2s;
+}
+.socialIcons i:hover {
+  color: #1c2321;
+}
+.socialIcons i:active {
+  color: #a9b4c2;
+}
+
+.copyrightText {
+  color: #a9b4c2;
+  font-size: 30px;
+  font-family: FuturaBook;
+}
+
+@media screen and (max-width: 1280px) {
+  .messageTitle {
+    margin-left: 45px;
+    margin-right: 15px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

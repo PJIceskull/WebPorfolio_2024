@@ -1,0 +1,36 @@
+.websitePrevPic {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 0.5s;
+}
+.oldPortfolioPic {
+  background-image: url(../img/websitePics/porfolio_preview.png);
+}
+.eventsyPic {
+  background-image: url(../img/websitePics/Eventsy_Preview.png);
+}
+.dancepunkPic {
+  background-image: url(../img/websitePics/Ecommerce_Preview.png);
+  background-position: top;
+}
+.qrCardPic {
+  background-image: url(../img/websitePics/QR_Card_Preview.png);
+}
+.blogPic {
+  background-image: url(../img/websitePics/Blog_Preview.png);
+}
+.booknookPic {
+  background-image: url(../img/websitePics/Booknook_Preview.png);
+}
+.jungleCookPic {
+  background-image: url(../img/websitePics/Jungle_Cook_Preview.png);
+}
+.webDevConPic {
+  background-image: url(../img/websitePics/WebDev_Conference_Preview.png);
+  background-position: left;
+}
+.coffeePic {
+  background-image: url(../img/websitePics/Coffee_Maker_Preview.png);
+}

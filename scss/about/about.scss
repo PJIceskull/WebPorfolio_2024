@@ -1,0 +1,50 @@
+#About-Section {
+  //   background-color: aquamarine;
+  min-height: $site-height;
+  max-width: $site-width;
+  background-image: linear-gradient(
+    0deg,
+    $eerieBlack 25%,
+    $cadetGray 25%,
+    $cadetGray 50%,
+    $eerieBlack 50%,
+    $eerieBlack 75%,
+    $cadetGray 75%,
+    $cadetGray 100%
+  );
+  background-size: 80px 80px;
+  color: $anti-FlashWhite;
+  padding-top: 200px;
+}
+.aboutText {
+  background-color: $cadetGray;
+  width: 100%;
+  padding: 50px;
+  h1 {
+    // font-size: 100px;
+    // font-size: clamp(3.125rem, 6.25vw, 6.25rem);
+    font-size: $h1-section;
+    font-family: FuturaBook;
+    margin-bottom: 10px;
+  }
+  hr {
+    max-width: 540px;
+    height: 10px;
+    background-color: $anti-FlashWhite;
+    border-style: none;
+    margin-bottom: 50px;
+  }
+}
+.aboutText-Body {
+  // max-width: 1180px;
+  max-width: 1180vw;
+  p {
+    // font-size: 36px;
+    font-size: clamp(0.75rem, 2vw, 1.5rem);
+  }
+}
+.AboutGradient {
+  width: 100%;
+  height: 162px;
+  background-image: linear-gradient($cadetGray, $eerieBlack);
+}

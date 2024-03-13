@@ -1,0 +1,75 @@
+button {
+  text-transform: uppercase;
+  color: $anti-FlashWhite;
+  border: 5px solid $anti-FlashWhite;
+  transition-duration: 0.6s;
+  a {
+    color: $anti-FlashWhite;
+    text-decoration: none;
+    font-family: FuturaHeavy;
+  }
+}
+.contactDark {
+  background-color: $eerieBlack;
+  width: 230px;
+  // width: 14.375vw;
+  height: 68px;
+  // margin: 0 auto;
+  font-size: 26px;
+  // font-size: 1.625vw;
+  font-weight: bold;
+  margin-bottom: 50px;
+  // margin-bottom: 6.25vh;
+  &:hover {
+    background-color: $anti-FlashWhite;
+    color: $eerieBlack;
+    a {
+      color: $eerieBlack;
+    }
+  }
+}
+
+.messageButton {
+  background-color: $payneGray;
+  font-family: FuturaHeavy;
+  // font-size: 32px;
+  font-size: clamp(1.5rem, 1.75vw, 2rem);
+  padding: 20px 28px;
+  &:hover {
+    background-color: $anti-FlashWhite;
+    color: $payneGray;
+    a {
+      color: $payneGray;
+    }
+  }
+}
+.viewSite {
+  color: $cadetGray;
+  border: 3px solid $cadetGray;
+  // width: 160px;
+  height: 68px;
+  font-size: 25px;
+  // font-family: FuturaMedium;
+  font-family: FuturaBook;
+  margin-bottom: 80px;
+  a {
+    color: $cadetGray;
+    font-size: 25px;
+    font-family: FuturaMedium;
+    margin: 17px 30px;
+  }
+  &:hover {
+    // border: 3px solid $anti-FlashWhite;
+    color: $anti-FlashWhite;
+    background-color: $cadetGray;
+    a {
+      color: $anti-FlashWhite;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contactDark {
+    margin-bottom: 15px;
+  }
+}

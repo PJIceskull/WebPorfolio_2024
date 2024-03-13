@@ -1,0 +1,105 @@
+#Work-Section {
+  background-color: $eerieBlack;
+  min-height: $site-height;
+  max-width: $site-width;
+}
+.WorkTitle {
+  h1 {
+    padding-top: 30px;
+    font-family: FuturaBook;
+    font-size: 110px;
+    text-transform: uppercase;
+    color: $anti-FlashWhite;
+    text-align: center;
+  }
+  hr {
+    border-style: none;
+    height: 11px;
+    background-color: $cadetGray;
+  }
+}
+.websiteSection {
+  // max-width: 1280px;
+  max-width: 100%;
+  min-height: 400px;
+  // display: flex;
+  // align-items: center;
+  // justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 63.5px;
+}
+.websitePrevBox {
+  // height: 100%;
+  height: 400px;
+  // width: 50%;
+  position: relative;
+}
+.aboutSite-Text {
+  height: 100%;
+  width: 100%;
+  // background-color: $anti-FlashWhite;
+  background-color: rgba($anti-FlashWhite, 0.85);
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  &:hover {
+    opacity: 1;
+  }
+  h2 {
+    // color: $cadetGray;
+    color: $payneGray;
+    font-size: 45px;
+    margin-top: 80px;
+  }
+  p {
+    font-size: 25px;
+    // color: $payneGray;
+    color: $cadetGray;
+    // color: $powderBlue;
+    // font-family: FuturaMedium;
+    font-family: FuturaBook;
+  }
+}
+
+// Media Queries
+@media screen and (max-width: 1280px) {
+  .WorkTitle {
+    h1 {
+      // font-size: 110px;
+      font-size: 6.875vw;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .WorkTitle {
+      h1 {
+        // font-size: 50px;
+        font-size: 3.125rem;
+      }
+    }
+  }
+  @media screen and (max-width: 540px) {
+    .websiteSection {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 600px;
+      margin-top: 40px;
+      .websitePrevBox {
+        width: 100%;
+        // height: 50%;
+        margin-bottom: 15px;
+      }
+    }
+    .aboutSite-Text {
+      h2 {
+        font-size: 32px;
+      }
+    }
+  }
+}
