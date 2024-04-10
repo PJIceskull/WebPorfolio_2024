@@ -4,11 +4,11 @@
 
 <!-- [](https://pjiceskull.github.io/WebPorfolio/) -->
 
-<https://pjiceskull.github.io/WebPorfolio/>
+<https://pjiceskull.github.io/WebPorfolio_2024/>
 
-### Web4 Link
+<!-- ### Web4 Link -->
 
-<https://in-info-web4.informatics.iupui.edu/~pissah/WebPorfolio-Pi/>
+<!-- <https://in-info-web4.informatics.iupui.edu/~pissah/WebPorfolio-Pi/> -->
 
 This is a portfolio that shows off my work and explain who I am.
 
@@ -19,4 +19,4 @@ This is a portfolio that shows off my work and explain who I am.
 ### Resources
 
 - [W3schools](https://www.w3schools.com/default.asp)
-- [Coolors](https://coolors.co/1c2321-7d98a1-5e6572-a9b4c2-eef1ef)
+- [Coolors](https://coolors.co)
