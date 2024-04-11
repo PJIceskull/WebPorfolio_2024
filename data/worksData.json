@@ -50,17 +50,17 @@
       "WebsiteDesc": ""
     },
     {
-      "WebsiteTitle": "",
-      "WebsiteURL": "",
-      "WebsiteImage": "",
-      "WebsiteCodeLangs": "",
+      "WebsiteTitle": "Soap Factory",
+      "WebsiteURL": "https://pjiceskull.github.io/N115_IntroToWebDev/Soap_Factory/",
+      "WebsiteImage": "soapFactory",
+      "WebsiteCodeLangs": "HTML, CSS",
       "WebsiteDesc": ""
     },
     {
-      "WebsiteTitle": "",
-      "WebsiteURL": "",
-      "WebsiteImage": "",
-      "WebsiteCodeLangs": "",
+      "WebsiteTitle": "Sweet.io",
+      "WebsiteURL": "https://pjiceskull.github.io/N115_IntroToWebDev/sweet_io/",
+      "WebsiteImage": "sweet",
+      "WebsiteCodeLangs": "HTML, CSS",
       "WebsiteDesc": ""
     }
   ]

@@ -490,6 +490,14 @@ button a {
   background-image: url(../img/websitePics/Coffee_Maker_Preview.png);
 }
 
+.soapFactoryPic {
+  background-image: url(../img/websitePics/soap_factory_preview.png);
+}
+
+.sweetPic {
+  background-image: url(../img/websitePics/sweet_io_preview.png);
+}
+
 #Contact-Section {
   background-color: #5e6572;
   min-height: 725px;
