@@ -36,13 +36,6 @@
       "WebsiteDesc": ""
     },
     {
-      "WebsiteTitle": "Web Dev Conference",
-      "WebsiteURL": "https://n320-final-pi.web.app",
-      "WebsiteImage": "webDevCon",
-      "WebsiteCodeLangs": "HTML, CSS, Vue, Firebase",
-      "WebsiteDesc": ""
-    },
-    {
       "WebsiteTitle": "Eventsy",
       "WebsiteURL": "https://in215-pissah.github.io/Eventsy-Site/",
       "WebsiteImage": "eventsy",
@@ -53,13 +46,6 @@
       "WebsiteTitle": "Soap Factory",
       "WebsiteURL": "https://pjiceskull.github.io/N115_IntroToWebDev/Soap_Factory/",
       "WebsiteImage": "soapFactory",
-      "WebsiteCodeLangs": "HTML, CSS",
-      "WebsiteDesc": ""
-    },
-    {
-      "WebsiteTitle": "Sweet.io",
-      "WebsiteURL": "https://pjiceskull.github.io/N115_IntroToWebDev/sweet_io/",
-      "WebsiteImage": "sweet",
       "WebsiteCodeLangs": "HTML, CSS",
       "WebsiteDesc": ""
     }
