@@ -195,8 +195,7 @@ button a {
 }
 
 .viewSite {
-  color: #a7b9bf;
-  border: 3px solid #a7b9bf;
+  border: 3px solid #86a9b6;
   height: 68px;
   font-size: 25px;
   margin: 0 auto;
@@ -204,14 +203,14 @@ button a {
   transition: 0.25s;
 }
 .viewSite a {
-  color: #a7b9bf;
+  color: #86a9b6;
   font-size: 25px;
   font-family: FuturaMedium;
   margin: 17px 30px;
 }
 .viewSite:hover {
   color: #eef1ef;
-  background-color: #a7b9bf;
+  background-color: #86a9b6;
 }
 .viewSite:hover a {
   color: #eef1ef;
@@ -381,64 +380,45 @@ button a {
 
 .websiteSection {
   min-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 50px;
   padding: 0 25px;
 }
 
 .websitePrevBox {
-  height: 400px;
+  min-height: 400px;
   margin-bottom: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+.websitePrevBox:nth-last-child(1) {
+  margin: 0 auto;
 }
 
 .projectText {
-  width: 450px;
-  height: 100%;
+  width: 400px;
+  min-height: 300px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
 }
 .projectText h2 {
-  color: #5e6572;
+  color: #eef1ef;
   font-size: 45px;
+  text-align: center;
 }
 .projectText p {
   font-size: 24px;
-  color: #a7b9bf;
+  color: #a9b4c2;
   font-family: FuturaBook;
 }
 .projectText .descText {
   font-size: 18px;
-}
-
-.previewText {
-  height: 100%;
-  width: 100%;
-  background-color: rgba(238, 241, 239, 0.85);
-  position: absolute;
-  top: 0;
-  opacity: 0;
-  transition-duration: 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
-}
-.previewText:hover {
-  opacity: 1;
-}
-.previewText h2 {
-  color: #5e6572;
-  font-size: 45px;
-  margin-top: 80px;
-}
-.previewText p {
-  font-size: 25px;
-  color: #a7b9bf;
-  font-family: FuturaBook;
 }
 
 @media screen and (max-width: 1280px) {
@@ -468,14 +448,15 @@ button a {
   }
 }
 .websitePrevPic {
-  height: 100%;
+  height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   transition-duration: 0.5s;
-  width: 500px;
+  width: 400px;
   margin-right: 10px;
   border-radius: 15px;
+  box-shadow: 11px 11px 8px 5px rgba(0, 0, 0, 0.75);
 }
 
 .oldPortfolioPic {
@@ -484,6 +465,7 @@ button a {
 
 .eventsyPic {
   background-image: url(../img/websitePics/Eventsy_Preview.png);
+  background-position: left;
 }
 
 .dancepunkPic {
@@ -505,10 +487,6 @@ button a {
 
 .jungleCookPic {
   background-image: url(../img/websitePics/Jungle_Cook_Preview.png);
-}
-
-.webDevConPic {
-  background-image: url(../img/websitePics/WebDev_Conference_Preview.png);
   background-position: left;
 }
 
@@ -518,10 +496,12 @@ button a {
 
 .soapFactoryPic {
   background-image: url(../img/websitePics/soap_factory_preview.png);
+  background-position: 0;
 }
 
 .sweetPic {
   background-image: url(../img/websitePics/sweet_io_preview.png);
+  background-position: -25px;
 }
 
 #Contact-Section {
