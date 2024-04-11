@@ -195,22 +195,22 @@ button a {
 }
 
 .viewSite {
-  color: #7d98a1;
-  border: 3px solid #7d98a1;
+  color: #a7b9bf;
+  border: 3px solid #a7b9bf;
   height: 68px;
   font-size: 25px;
   font-family: FuturaBook;
   margin-bottom: 80px;
 }
 .viewSite a {
-  color: #7d98a1;
+  color: #a7b9bf;
   font-size: 25px;
   font-family: FuturaMedium;
   margin: 17px 30px;
 }
 .viewSite:hover {
   color: #eef1ef;
-  background-color: #7d98a1;
+  background-color: #a7b9bf;
 }
 .viewSite:hover a {
   color: #eef1ef;
@@ -229,7 +229,7 @@ button a {
   justify-content: space-between;
 }
 #Home-Section .homeText {
-  width: 50%;
+  width: 45%;
   min-height: 800px;
   background-color: #1c2321;
   display: flex;
@@ -239,7 +239,7 @@ button a {
 }
 #Home-Section .homeText h1,
 #Home-Section .homeText h3 {
-  color: #7d98a1;
+  color: #eef1ef;
 }
 #Home-Section .homeText h2,
 #Home-Section .homeText p {
@@ -268,7 +268,7 @@ button a {
 
 .homeImg {
   min-height: 800px;
-  width: 50%;
+  width: 40%;
 }
 
 .profilePic {
@@ -321,14 +321,13 @@ button a {
 #About-Section {
   min-height: 800px;
   max-width: 1280vw;
-  background-image: linear-gradient(0deg, #1c2321 25%, #7d98a1 25%, #7d98a1 50%, #1c2321 50%, #1c2321 75%, #7d98a1 75%, #7d98a1 100%);
   background-size: 80px 80px;
   color: #eef1ef;
   padding-top: 200px;
 }
 
 .aboutText {
-  background-color: #7d98a1;
+  background-color: #1c2321;
   width: 100%;
   padding: 50px;
 }
@@ -350,13 +349,13 @@ button a {
   max-width: 1180vw;
 }
 .aboutText-Body p {
-  font-size: clamp(0.75rem, 2vw, 1.5rem);
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
 }
 
 .AboutGradient {
   width: 100%;
   height: 162px;
-  background-image: linear-gradient(#7d98a1, #1c2321);
+  background-image: linear-gradient(#a7b9bf, #1c2321);
 }
 
 #Work-Section {
@@ -376,7 +375,7 @@ button a {
 .WorkTitle hr {
   border-style: none;
   height: 11px;
-  background-color: #7d98a1;
+  background-color: #a7b9bf;
 }
 
 .websiteSection {
@@ -415,7 +414,7 @@ button a {
 }
 .aboutSite-Text p {
   font-size: 25px;
-  color: #7d98a1;
+  color: #a7b9bf;
   font-family: FuturaBook;
 }
 
@@ -532,6 +531,10 @@ button a {
   margin-top: 34.5px;
 }
 
+.messageBox {
+  margin: 0 35px;
+}
+
 .messageTitle {
   font-family: FuturaHeavy;
   font-size: 45px;
@@ -539,12 +542,14 @@ button a {
 }
 
 .socialIcons {
-  width: 315.5px;
+  width: 35vw;
+  min-width: 245px;
+  max-width: 315px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 60px;
-  margin-top: 24px;
+  margin: 25px;
 }
 .socialIcons a {
   text-decoration: none;

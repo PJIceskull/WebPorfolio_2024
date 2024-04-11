@@ -32,18 +32,23 @@
     margin-top: 34.5px;
   }
 }
+.messageBox {
+  margin: 0 35px;
+}
 .messageTitle {
   font-family: FuturaHeavy;
   font-size: 45px;
   font-size: clamp(1.4rem, 2.8125vw, 2.8125rem);
 }
 .socialIcons {
-  width: 315.5px;
+  width: 35vw;
+  min-width: 245px;
+  max-width: 315px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 60px;
-  margin-top: 24px;
+  margin: 25px;
   a {
     text-decoration: none;
   }

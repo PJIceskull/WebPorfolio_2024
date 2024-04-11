@@ -2,22 +2,24 @@
   //   background-color: aquamarine;
   min-height: $site-height;
   max-width: $site-width;
-  background-image: linear-gradient(
-    0deg,
-    $eerieBlack 25%,
-    $cadetGray 25%,
-    $cadetGray 50%,
-    $eerieBlack 50%,
-    $eerieBlack 75%,
-    $cadetGray 75%,
-    $cadetGray 100%
-  );
+  // background-image: linear-gradient(
+  //   0deg,
+  //   $eerieBlack 25%,
+  //   $cadetGray 25%,
+  //   $cadetGray 50%,
+  //   $eerieBlack 50%,
+  //   $eerieBlack 75%,
+  //   $cadetGray 75%,
+  //   $cadetGray 100%
+  // );
   background-size: 80px 80px;
   color: $anti-FlashWhite;
   padding-top: 200px;
 }
 .aboutText {
-  background-color: $cadetGray;
+  // background-color: $cadetGray;
+  // background-color: $powderBlue;
+  background-color: $eerieBlack;
   width: 100%;
   padding: 50px;
   h1 {
@@ -41,7 +43,7 @@
   max-width: 1180vw;
   p {
     // font-size: 36px;
-    font-size: clamp(0.75rem, 2vw, 1.5rem);
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
   }
 }
 .AboutGradient {

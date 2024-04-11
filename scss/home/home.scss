@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
   .homeText {
-    width: 50%;
+    width: 45%;
     // height: 100%;
     min-height: $site-height;
     // max-width: 640px;
@@ -17,9 +17,17 @@
     align-items: baseline;
     justify-content: center;
     flex-direction: column;
+    // h1,
+    // h3 {
+    //   color: $cadetGray;
+    // }
+    // h2,
+    // p {
+    //   color: $powderBlue;
+    // }
     h1,
     h3 {
-      color: $cadetGray;
+      color: $anti-FlashWhite;
     }
     h2,
     p {
@@ -55,7 +63,9 @@
 .homeImg {
   // background-color: gold;
   min-height: $site-height;
-  width: 50%;
+  width: 40%;
+  // width: 529.5px;
+  // width: 53vw;
 }
 .profilePic {
   height: $site-height;
