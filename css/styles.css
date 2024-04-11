@@ -181,17 +181,16 @@ button a {
 }
 
 .messageButton {
-  background-color: #5e6572;
+  background-color: #1c2321;
   font-family: FuturaHeavy;
   font-size: clamp(1.5rem, 1.75vw, 2rem);
   padding: 20px 28px;
 }
 .messageButton:hover {
   background-color: #eef1ef;
-  color: #5e6572;
 }
 .messageButton:hover a {
-  color: #5e6572;
+  color: #1c2321;
 }
 
 .viewSite {
@@ -505,7 +504,6 @@ button a {
 }
 
 #Contact-Section {
-  background-color: #5e6572;
   min-height: 725px;
   max-width: 1280vw;
   color: #eef1ef;
