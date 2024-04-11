@@ -44,8 +44,7 @@ button {
   }
 }
 .viewSite {
-  color: $cadetGray;
-  border: 3px solid $cadetGray;
+  border: 3px solid $cadetBlue;
   // width: 160px;
   height: 68px;
   font-size: 25px;
@@ -53,15 +52,16 @@ button {
   font-family: FuturaBook;
   transition: 0.25s;
   a {
-    color: $cadetGray;
+    // color: $cadetGray;
+    color: $cadetBlue;
     font-size: 25px;
     font-family: FuturaMedium;
     margin: 17px 30px;
   }
   &:hover {
-    // border: 3px solid $anti-FlashWhite;
     color: $anti-FlashWhite;
-    background-color: $cadetGray;
+    // background-color: $cadetGray;
+    background-color: $cadetBlue;
     a {
       color: $anti-FlashWhite;
     }
