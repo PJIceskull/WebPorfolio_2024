@@ -1,0 +1,67 @@
+{
+  "Works": [
+    {
+      "WebsiteTitle": "Blog Preview",
+      "WebsiteURL": "https://pjiceskull.github.io/blog-preview-card-main/",
+      "WebsiteImage": "blog",
+      "WebsiteCodeLangs": "HTML, CSS, SASS",
+      "WebsiteDesc": ""
+    },
+    {
+      "WebsiteTitle": "Booknook Site",
+      "WebsiteURL": "https://pjiceskull.github.io/Booknook-Site/",
+      "WebsiteImage": "booknook",
+      "WebsiteCodeLangs": "HTML, CSS, SASS, JS",
+      "WebsiteDesc": ""
+    },
+    {
+      "WebsiteTitle": "Dancepunk Disco",
+      "WebsiteURL": "https://pjiceskull.github.io/eCommerce_Site/",
+      "WebsiteImage": "dancepunk",
+      "WebsiteCodeLangs": "HTML, CSS, SASS",
+      "WebsiteDesc": ""
+    },
+    {
+      "WebsiteTitle": "QR Card",
+      "WebsiteURL": "https://pjiceskull.github.io/qr-code-component-main/",
+      "WebsiteImage": "qrCard",
+      "WebsiteCodeLangs": "HTML, CSS, SASS",
+      "WebsiteDesc": ""
+    },
+    {
+      "WebsiteTitle": "Jungle Cook",
+      "WebsiteURL": "https://pjiceskull.github.io/Jungle-Cook-Final/dist/",
+      "WebsiteImage": "jungleCook",
+      "WebsiteCodeLangs": "HTML, CSS, SASS, JS, Firebase",
+      "WebsiteDesc": ""
+    },
+    {
+      "WebsiteTitle": "Web Dev Conference",
+      "WebsiteURL": "https://n320-final-pi.web.app",
+      "WebsiteImage": "webDevCon",
+      "WebsiteCodeLangs": "HTML, CSS, Vue, Firebase",
+      "WebsiteDesc": ""
+    },
+    {
+      "WebsiteTitle": "Eventsy",
+      "WebsiteURL": "https://in215-pissah.github.io/Eventsy-Site/",
+      "WebsiteImage": "eventsy",
+      "WebsiteCodeLangs": "HTML, CSS, SASS, JS",
+      "WebsiteDesc": ""
+    },
+    {
+      "WebsiteTitle": "",
+      "WebsiteURL": "",
+      "WebsiteImage": "",
+      "WebsiteCodeLangs": "",
+      "WebsiteDesc": ""
+    },
+    {
+      "WebsiteTitle": "",
+      "WebsiteURL": "",
+      "WebsiteImage": "",
+      "WebsiteCodeLangs": "",
+      "WebsiteDesc": ""
+    }
+  ]
+}
