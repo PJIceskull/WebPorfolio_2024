@@ -1,10 +1,11 @@
 .websitePrevPic {
-  height: 100%;
+  // height: 100%;
+  height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   transition-duration: 0.5s;
-  width: 500px;
+  width: 400px;
   margin-right: 10px;
   border-radius: 15px;
   box-shadow: 11px 11px 8px 5px rgba(0, 0, 0, 0.75);
@@ -14,6 +15,7 @@
 }
 .eventsyPic {
   background-image: url(../img/websitePics/Eventsy_Preview.png);
+  background-position: left;
 }
 .dancepunkPic {
   background-image: url(../img/websitePics/Ecommerce_Preview.png);
@@ -30,6 +32,7 @@
 }
 .jungleCookPic {
   background-image: url(../img/websitePics/Jungle_Cook_Preview.png);
+  background-position: left;
 }
 .webDevConPic {
   background-image: url(../img/websitePics/WebDev_Conference_Preview.png);
@@ -40,7 +43,9 @@
 }
 .soapFactoryPic {
   background-image: url(../img/websitePics/soap_factory_preview.png);
+  background-position: 0;
 }
 .sweetPic {
   background-image: url(../img/websitePics/sweet_io_preview.png);
+  background-position: -25px;
 }
