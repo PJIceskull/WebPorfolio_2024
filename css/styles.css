@@ -110,6 +110,32 @@ nav i:active {
   color: #1c2321;
   background-color: #eef1ef;
 }
+nav .hamburger-menu {
+  cursor: pointer;
+}
+nav .hamburger-menu .bar1,
+nav .hamburger-menu .bar2,
+nav .hamburger-menu .bar3 {
+  width: 30px;
+  height: 2px;
+  background-color: #a9b4c2;
+  margin: 8px 0;
+  transition: 0.3s;
+}
+nav .hamburger-menu:hover .bar1,
+nav .hamburger-menu:hover .bar2,
+nav .hamburger-menu:hover .bar3 {
+  background-color: #eef1ef;
+}
+nav .open .bar1 {
+  transform: rotate(-45deg) translate(-7px, 7px);
+}
+nav .open .bar2 {
+  opacity: 0;
+}
+nav .open .bar3 {
+  transform: rotate(-45deg) translate(-7px, 7px);
+}
 
 @media screen and (min-width: 1280px) {
   nav {
