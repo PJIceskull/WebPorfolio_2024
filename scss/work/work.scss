@@ -20,25 +20,53 @@
 }
 .websiteSection {
   // max-width: 1280px;
-  max-width: 100%;
+  // max-width: 100%;
   min-height: 400px;
   // display: flex;
   // align-items: center;
   // justify-content: space-between;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 63.5px;
+  // display: grid;
+  // grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+  padding: 0 25px;
 }
 .websitePrevBox {
   // height: 100%;
   height: 400px;
-  // width: 50%;
-  position: relative;
+  // max-width: 1000px;
+  margin: 0 auto;
+  // position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.aboutSite-Text {
+.projectText {
+  max-width: 500px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  h2 {
+    // color: $cadetGray;
+    color: $payneGray;
+    font-size: 45px;
+  }
+  p {
+    font-size: 24px;
+    // color: $payneGray;
+    color: $cadetGray;
+    // color: $powderBlue;
+    // font-family: FuturaMedium;
+    font-family: FuturaBook;
+  }
+  .descText {
+    font-size: 18px;
+  }
+}
+.previewText {
   height: 100%;
   width: 100%;
-  // background-color: $anti-FlashWhite;
   background-color: rgba($anti-FlashWhite, 0.85);
   position: absolute;
   top: 0;

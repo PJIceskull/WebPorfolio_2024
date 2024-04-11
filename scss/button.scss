@@ -49,9 +49,9 @@ button {
   // width: 160px;
   height: 68px;
   font-size: 25px;
-  // font-family: FuturaMedium;
+  margin: 0 auto;
   font-family: FuturaBook;
-  margin-bottom: 80px;
+  transition: 0.25s;
   a {
     color: $cadetGray;
     font-size: 25px;

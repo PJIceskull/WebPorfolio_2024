@@ -199,8 +199,9 @@ button a {
   border: 3px solid #a7b9bf;
   height: 68px;
   font-size: 25px;
+  margin: 0 auto;
   font-family: FuturaBook;
-  margin-bottom: 80px;
+  transition: 0.25s;
 }
 .viewSite a {
   color: #a7b9bf;
@@ -379,19 +380,41 @@ button a {
 }
 
 .websiteSection {
-  max-width: 100%;
   min-height: 400px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 63.5px;
+  margin-top: 50px;
+  padding: 0 25px;
 }
 
 .websitePrevBox {
   height: 400px;
-  position: relative;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.aboutSite-Text {
+.projectText {
+  max-width: 500px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.projectText h2 {
+  color: #5e6572;
+  font-size: 45px;
+}
+.projectText p {
+  font-size: 24px;
+  color: #a7b9bf;
+  font-family: FuturaBook;
+}
+.projectText .descText {
+  font-size: 18px;
+}
+
+.previewText {
   height: 100%;
   width: 100%;
   background-color: rgba(238, 241, 239, 0.85);
@@ -404,15 +427,15 @@ button a {
   justify-content: space-evenly;
   flex-direction: column;
 }
-.aboutSite-Text:hover {
+.previewText:hover {
   opacity: 1;
 }
-.aboutSite-Text h2 {
+.previewText h2 {
   color: #5e6572;
   font-size: 45px;
   margin-top: 80px;
 }
-.aboutSite-Text p {
+.previewText p {
   font-size: 25px;
   color: #a7b9bf;
   font-family: FuturaBook;
@@ -450,6 +473,7 @@ button a {
   background-repeat: no-repeat;
   background-position: center;
   transition-duration: 0.5s;
+  width: 500px;
 }
 
 .oldPortfolioPic {
