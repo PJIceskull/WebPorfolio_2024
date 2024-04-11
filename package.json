@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "sass": "^1.71.1"
+    "sass": "^1.72.0"
   },
   "name": "webporfolio",
   "description": "This is a portfolio that shows off my work and explain who I am.",

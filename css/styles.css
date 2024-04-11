@@ -387,19 +387,19 @@ button a {
 
 .websitePrevBox {
   height: 400px;
-  margin: 0 auto;
+  margin-bottom: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .projectText {
-  max-width: 500px;
+  width: 450px;
   height: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .projectText h2 {
   color: #5e6572;
@@ -456,7 +456,7 @@ button a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 600px;
+    min-height: 600px;
     margin-top: 40px;
   }
   .websiteSection .websitePrevBox {
@@ -474,6 +474,8 @@ button a {
   background-position: center;
   transition-duration: 0.5s;
   width: 500px;
+  margin-right: 10px;
+  border-radius: 15px;
 }
 
 .oldPortfolioPic {

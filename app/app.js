@@ -17,21 +17,20 @@ function getData() {
 function loadPorfolio() {
   $(".websiteSection").html("");
   $.each(porfolioData.Works, function (index, work) {
-    console.log(index);
     $(".websiteSection").append(`<div class="websitePrevBox">
-    <div class="websitePrevPic ${work.WebsiteImage}Pic">
-      <div class="aboutSite-Text">
-        <h2>${work.WebsiteTitle}</h2>
-        <p>${work.WebsiteCodeLangs}</p>
-        <button class="viewSite">
-          <a
-            href="${work.WebsiteURL}"
-            target="_blank"
-          >
-            View Site
-          </a>
-        </button>
-      </div>
+    <div class="websitePrevPic ${work.WebsiteImage}Pic"></div>
+    <div class="projectText">
+      <h2>${work.WebsiteTitle}</h2>
+      <p>${work.WebsiteCodeLangs}</p>
+      <p class="descText">${work.WebsiteDesc}</p>
+      <button class="viewSite">
+        <a
+          href="${work.WebsiteURL}"
+          target="_blank"
+        >
+          View Site
+        </a>
+      </button>
     </div>
   </div>`);
   });
