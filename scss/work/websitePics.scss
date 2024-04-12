@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-position: center;
   transition-duration: 0.5s;
-  width: 400px;
+  width: 350px;
   margin-right: 10px;
   border-radius: 15px;
   box-shadow: 11px 11px 8px 5px rgba(0, 0, 0, 0.75);
@@ -15,7 +15,6 @@
 }
 .eventsyPic {
   background-image: url(../img/websitePics/Eventsy_Preview.png);
-  background-position: left;
 }
 .dancepunkPic {
   background-image: url(../img/websitePics/Ecommerce_Preview.png);
@@ -48,4 +47,10 @@
 .sweetPic {
   background-image: url(../img/websitePics/sweet_io_preview.png);
   background-position: -25px;
+}
+@media screen and (max-width: 425px) {
+  .websitePrevPic {
+    height: 200px;
+    width: 250px;
+  }
 }

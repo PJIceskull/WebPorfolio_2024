@@ -43,7 +43,7 @@
 }
 .projectText {
   // background-color: gold;
-  width: 400px;
+  max-width: 400px;
   // height: 100%;
   min-height: 300px;
   display: flex;
@@ -72,7 +72,7 @@
 }
 
 // Media Queries
-@media screen and (max-width: 1690px) {
+@media screen and (max-width: 1490px) {
   .websitePrevBox {
     &:nth-last-child(1) {
       margin: 0 auto;
@@ -84,6 +84,11 @@
     h1 {
       // font-size: 110px;
       font-size: 6.875vw;
+    }
+  }
+  @media screen and (max-width: 849px) {
+    .websiteSection {
+      justify-content: center;
     }
   }
   @media screen and (max-width: 800px) {
