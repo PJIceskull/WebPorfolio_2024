@@ -69,7 +69,7 @@
   // width: 53vw;
 }
 .profilePic {
-  height: $site-height;
+  height: $site-height - 50px;
   // width: 100%;
   background-image: url(../img/profile_pic.JPEG);
   background-size: cover;

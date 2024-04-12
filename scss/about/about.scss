@@ -15,12 +15,15 @@
   background-size: 80px 80px;
   color: $anti-FlashWhite;
   padding-top: 200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
 }
 .aboutText {
   // background-color: $cadetGray;
   // background-color: $powderBlue;
   background-color: $eerieBlack;
-  width: 100%;
+  width: 55%;
   padding: 50px;
   h1 {
     // font-size: 100px;
