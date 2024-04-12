@@ -565,10 +565,10 @@ button a {
   transition-duration: 0.2s;
 }
 .socialIcons i:hover {
-  color: #1c2321;
+  color: #a9b4c2;
 }
 .socialIcons i:active {
-  color: #a9b4c2;
+  color: #1c2321;
 }
 
 .copyrightText {
