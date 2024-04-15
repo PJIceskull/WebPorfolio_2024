@@ -24,10 +24,8 @@
   min-height: 400px;
   display: flex;
   flex-wrap: wrap;
-  // align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  // display: grid;
-  // grid-template-columns: repeat(2, 1fr);
   margin-top: 50px;
   padding: 0 25px;
 }
@@ -69,6 +67,7 @@
   }
   .descText {
     font-size: 18px;
+    max-width: 360px;
   }
 }
 
