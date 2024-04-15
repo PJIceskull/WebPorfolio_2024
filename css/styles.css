@@ -386,6 +386,7 @@ button a {
   min-height: 400px;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: space-between;
   margin-top: 50px;
   padding: 0 25px;
@@ -421,6 +422,7 @@ button a {
 }
 .projectText .descText {
   font-size: 18px;
+  max-width: 360px;
 }
 
 @media screen and (max-width: 1490px) {
@@ -468,6 +470,7 @@ button a {
   width: 350px;
   border-radius: 15px;
   box-shadow: 11px 11px 8px 5px rgba(0, 0, 0, 0.75);
+  margin-bottom: 15px;
 }
 
 .oldPortfolioPic {
