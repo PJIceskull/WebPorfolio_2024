@@ -1,39 +1,39 @@
 {
   "Works": [
     {
-      "WebsiteTitle": "Blog Preview",
+      "WebsiteTitle": "Blog Preview Card",
       "WebsiteURL": "https://pjiceskull.github.io/blog-preview-card-main/",
       "WebsiteImage": "blog",
       "WebsiteCodeLangs": "HTML, CSS, SASS",
-      "WebsiteDesc": "This is a Website."
+      "WebsiteDesc": "This is a challenge I did on <b>Frontend Mentor</b> where I had to build out this Blog preview card shown above. This project is great for improving my HTML and CSS fundamentals as I worked with the box model and hover states for each element. This exercise also puts my knowledge of the box-shadow property to work."
     },
     {
       "WebsiteTitle": "Booknook Site",
       "WebsiteURL": "https://pjiceskull.github.io/Booknook-Site/",
       "WebsiteImage": "booknook",
       "WebsiteCodeLangs": "HTML, CSS, SASS, JS",
-      "WebsiteDesc": ""
+      "WebsiteDesc": "This is a Website"
     },
     {
       "WebsiteTitle": "Dancepunk Disco",
       "WebsiteURL": "https://pjiceskull.github.io/eCommerce_Site/",
       "WebsiteImage": "dancepunk",
       "WebsiteCodeLangs": "HTML, CSS, SASS",
-      "WebsiteDesc": ""
+      "WebsiteDesc": "This is a mockup of an e-commerce website based on online music stores. I first design the layout using Adobe XD and by studying the layout of other websites. Then, I built the website using web-based languages."
     },
     {
       "WebsiteTitle": "QR Card",
       "WebsiteURL": "https://pjiceskull.github.io/qr-code-component-main/",
       "WebsiteImage": "qrCard",
       "WebsiteCodeLangs": "HTML, CSS, SASS",
-      "WebsiteDesc": ""
+      "WebsiteDesc": "For this challenge, I was tasked with building out the QR card component from Frontend Mentor. One of my responsibilities was to get it close to how it looked in the design prototypes, as long as making sure it was responsive. This was a fun exercise testing my CSS skills."
     },
     {
       "WebsiteTitle": "Jungle Cook",
       "WebsiteURL": "https://pjiceskull.github.io/Jungle-Cook-Final/dist/",
       "WebsiteImage": "jungleCook",
       "WebsiteCodeLangs": "HTML, CSS, SASS, JS, Firebase",
-      "WebsiteDesc": ""
+      "WebsiteDesc": "This is a Website"
     },
     {
       "WebsiteTitle": "Eventsy",
