@@ -12,14 +12,14 @@
       "WebsiteURL": "https://pjiceskull.github.io/Booknook-Site/",
       "WebsiteImage": "booknook",
       "WebsiteCodeLangs": "HTML, CSS, SASS, JS",
-      "WebsiteDesc": "This is a Website"
+      "WebsiteDesc": "A <b>team-based project</b>, where our task is to create a bookstore website. We were both assigned different roles when building the site. My role was creating the About page, the Book page, and the Login pages. I was also responsible for creating the footer element and the overall responsiveness of the website."
     },
     {
       "WebsiteTitle": "Dancepunk Disco",
       "WebsiteURL": "https://pjiceskull.github.io/eCommerce_Site/",
       "WebsiteImage": "dancepunk",
       "WebsiteCodeLangs": "HTML, CSS, SASS",
-      "WebsiteDesc": "This is a mockup of an e-commerce website based on online music stores. I first design the layout using Adobe XD and by studying the layout of other websites. Then, I built the website using web-based languages."
+      "WebsiteDesc": "This is a mockup of an e-commerce website based on online music stores. I first design the layout using Adobe XD and by studying the layout of other websites. Then, I built the website using the languages above."
     },
     {
       "WebsiteTitle": "QR Card",
@@ -33,21 +33,21 @@
       "WebsiteURL": "https://pjiceskull.github.io/Jungle-Cook-Final/dist/",
       "WebsiteImage": "jungleCook",
       "WebsiteCodeLangs": "HTML, CSS, SASS, JS, Firebase",
-      "WebsiteDesc": "This is a Website"
+      "WebsiteDesc": "A recipe website that allows the user to create their recipes. Not only is the website responsive for other devices, but it also has <b>dynamic features.</b> Based on the <b>CRUD</b> design pattern, users can create, store, and delete recipes. Along with being able to sign in with an account, these features were all implemented through the <b>Firebase API</b> and <b>Jquery</b>."
     },
     {
       "WebsiteTitle": "Eventsy",
       "WebsiteURL": "https://in215-pissah.github.io/Eventsy-Site/",
       "WebsiteImage": "eventsy",
       "WebsiteCodeLangs": "HTML, CSS, SASS, JS",
-      "WebsiteDesc": ""
+      "WebsiteDesc": "Recreated Eventsy website using CSS and made it responsive on all devices. By using <b>JQuery</b> and the <b>MVC model</b>, the website displays information based on its page."
     },
     {
       "WebsiteTitle": "Soap Factory",
       "WebsiteURL": "https://pjiceskull.github.io/N115_IntroToWebDev/Soap_Factory/",
       "WebsiteImage": "soapFactory",
       "WebsiteCodeLangs": "HTML, CSS",
-      "WebsiteDesc": ""
+      "WebsiteDesc": "Website showing off soap products made with basic CSS and HTML."
     }
   ]
 }
