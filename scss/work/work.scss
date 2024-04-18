@@ -5,7 +5,7 @@
 }
 .WorkTitle {
   h1 {
-    padding-top: 30px;
+    padding-top: 15px;
     font-family: FuturaBook;
     font-size: 110px;
     text-transform: uppercase;
@@ -84,6 +84,11 @@
     h1 {
       // font-size: 110px;
       font-size: 6.875vw;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    #Work-Section {
+      padding-top: 60px;
     }
   }
   @media screen and (max-width: 849px) {

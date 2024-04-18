@@ -287,7 +287,6 @@ button a {
   }
   #Home-Section .homeText {
     width: 100%;
-    min-height: 500px;
   }
   #Home-Section .homeText h1 {
     margin: 20px 45px 0;
@@ -303,12 +302,12 @@ button a {
     margin: 20px 45px 30px;
   }
   .homeImg {
-    min-height: 615.3846153846px;
+    min-height: 457.1428571429px;
     width: 75%;
     margin: 0 auto;
   }
   .homeImg .profilePic {
-    max-height: 615.3846153846px;
+    max-height: 457.1428571429px;
     height: 450px;
     width: 100%;
   }
@@ -324,7 +323,7 @@ button a {
   max-width: 1280vw;
   background-size: 80px 80px;
   color: #eef1ef;
-  padding-top: 200px;
+  padding-top: 75px;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
@@ -362,6 +361,15 @@ button a {
   background-image: linear-gradient(#a7b9bf, #1c2321);
 }
 
+@media screen and (max-width: 768px) {
+  #About-Section {
+    flex-direction: column;
+  }
+  .aboutText {
+    margin: 0 auto;
+    width: 85%;
+  }
+}
 #Work-Section {
   background-color: #1c2321;
   min-height: 800px;
@@ -369,7 +377,7 @@ button a {
 }
 
 .WorkTitle h1 {
-  padding-top: 30px;
+  padding-top: 15px;
   font-family: FuturaBook;
   font-size: 110px;
   text-transform: uppercase;
@@ -433,6 +441,11 @@ button a {
 @media screen and (max-width: 1280px) {
   .WorkTitle h1 {
     font-size: 6.875vw;
+  }
+}
+@media screen and (max-width: 1280px) and (max-width: 1024px) {
+  #Work-Section {
+    padding-top: 60px;
   }
 }
 @media screen and (max-width: 1280px) and (max-width: 849px) {
